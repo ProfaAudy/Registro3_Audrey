@@ -11,8 +11,7 @@ def exibir_produtos():
     for produto, preco in produtos.items():
         print(f"{produto.title()}: R$ {preco:.2f}")
 
-def aplicar_desconto(preco, desconto):
-    return preco - (preco * desconto / 100)
+
 
 def realizar_pagamento():
     exibir_produtos()
