@@ -23,10 +23,6 @@ def realizar_login():
     else:
         print("Usuário não encontrado. Verifique o nome de usuário.")
 
-def alterar_senha(username):
-    nova_senha = input("Digite a nova senha: ")
-    usuarios[username] = nova_senha
-    print("Senha alterada com sucesso!")
 
 def registrar_usuario():
     novo_usuario = input("Digite o nome de usuário: ")
